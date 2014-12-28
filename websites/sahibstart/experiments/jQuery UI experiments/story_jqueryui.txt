@@ -1,3 +1,0 @@
-﻿jQueryUIbasic.html Draggable Functionality
-jQuerysortable.html	Sortable Functionality
-jQueryUIanimation.html Animation

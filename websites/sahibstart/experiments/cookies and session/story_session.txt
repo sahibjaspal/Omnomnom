@@ -1,2 +1,0 @@
-﻿session001.aspx Session Handling in Asp.net
-Cookies001.aspx Handling Cookies in Asp.net

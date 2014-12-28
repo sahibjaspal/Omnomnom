@@ -1,2 +1,0 @@
-﻿HomePage.aspx Project Home Page
-DetailsPage.aspx Details Page

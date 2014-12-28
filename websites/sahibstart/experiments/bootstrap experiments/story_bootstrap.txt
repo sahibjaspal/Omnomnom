@@ -1,3 +1,0 @@
-﻿Bootstrapbasic.aspx Sticky Header
-Bootstrap002.aspx Bootstrap Buttons and dropdown
-Bootstrapimages.aspx Working with Bootstrap Images

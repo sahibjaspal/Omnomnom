@@ -1,5 +1,0 @@
-﻿responsivewidth.html Responsive width for different media
-responsiveimage.html Responsive Image
-responsivesidebars.html Responsive Side Bars
-responsivecontent.html Responsive Centered Content & Image
-selectedresponsive.html Only Certain divs are responsive

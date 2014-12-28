@@ -1,2 +1,0 @@
-﻿HomePage.aspx Project Home Page
-ImageSlideshow.aspx Image Slide Show Using jQuery
