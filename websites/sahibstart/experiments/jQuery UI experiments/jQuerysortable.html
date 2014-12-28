@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuerySortable</title>
+     <h2>Purpose: To show the sortable functionality in jQuery UI: </h2>
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui-1.10.4.custom.min.css" />
+    <link rel="stylesheet" href="css/sortableCSS.css" />
+
+</head>
+<body>
+    <hr />
+    <br />
+     In this experiment, the texts can be sorted by dragging them.
+    <br />
+    <br />
+    <h2>Arrange the following sentence in the right order:</h2>
+
+    <ul id="mainlist">
+        <li class="red">jQuery UI</li>
+      
+        <li class="orange">This</li>
+        
+         <li class="aqua">a</li>
+        <li>experiment</li>
+        <li class="yellow">is</li>
+         </ul>
+
+        <br />
+        <br />
+        <input type="submit" value="submit" onclick="submit()" />
+        
+      
+  
+
+         <br />
+    <br />
+    <br />
+    <br />
+    
+    
+
+     <hr />
+    <b>Sources:</b>
+    <a href="http://net4.ccs.neu.edu/home/sahibj/fileview/Default.aspx?~/experiments/jQuery UI experiments/jQuerysortable.html">HTML Source</a>
+  
+
+</body>
+</html>
+<script type="text/javascript" src="../../javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../javascript/jquery-ui-1.10.4.custom.min.js"></script>
+ 
+
+    <script>
+        $(function () {
+            $("#mainlist").sortable({ "axis": "y" });
+        });
+
+        function submit() {
+            var checkOrder = [];
+            var correctOrder = ["This", "is", "a", "jQuery UI", "experiment"];
+            $("#mainlist>li").each(function () { checkOrder.push($(this).text()) });
+
+            if (checkfunction(checkOrder, correctOrder)) {
+                alert("You are awesome! This is the correct order! :D");
+            }
+
+            else {
+                alert("This is not the correct order. :(");
+            }
+        }
+
+        function checkfunction(arr1, arr2) {
+            var incorrect = 0;
+            for (var i = 0; i < arr1.length; i++) {
+                if (arr1[i] != arr2[i])
+                    incorrect++;
+            }
+            if (incorrect != 0)
+                return false;
+            else
+                return true;
+        }
+
+
+
+
+
+    </script>

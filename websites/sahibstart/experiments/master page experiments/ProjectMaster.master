@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Omnomnom Master Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css" />
+    
+
+ <link rel="stylesheet" href="css/CSS.css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-default" role="navigation" >
+        <div class="container">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="#"><img src="../../images/omnomnom3.png" /></a>
+                 
+             </div>
+             <div class="topbtnpadding">
+
+             </div>
+                
+             <button class="btnlogin btn btn-primary">Log In</button>
+         </div>
+
+          
+     </div>
+   <div class="toppadding"></div>
+        
+        <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+     </div>
+        <b style="color:white">Master Page Source:</b>
+         <rasala:FileView ID="fileView" runat="server" />
+    </form>
+</body>
+</html>
