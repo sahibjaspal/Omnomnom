@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" %>
+
+<!DOCTYPE html>
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Omnomnom Master Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+     <link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css" />
+     
+    <link rel="stylesheet" href="css/Master.css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-default" role="navigation" >
+        <div class="container">
+            <div class="navbar-header">
+                
+                <a class="navbar-brand" href="#"><img src="../../images/omnomnom3.png" /></a>
+                 
+             </div>
+             <div class="topbtnpadding">
+
+             </div>
+                
+             <%--<button class="btnlogin btn btn-primary">Log In</button>--%>
+         </div>
+
+          
+     </div>
+   <div class="toppadding"></div>
+        <br />
+        <br />
+
+        <h3 style="color:white;">Project Use: This depicts the Login and Sign Up Page functionality.<br />
+         If a user doesnt exist, it can be created using the sign up page functionality. <br />
+            This functionality will be added to my Project.
+        </h3>
+        
+       
+        
+        <div class="paddingleft container toppadding" style="background-color:#f5f1ed;width:700px;">
+            <div class="divleftpadding container paddingbottom"><asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+           
+        
+   
+     </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <b style="color:white">Master Page Source:</b>
+         <rasala:FileView ID="fileView" runat="server" />
+    </form>
+</body>
+</html>

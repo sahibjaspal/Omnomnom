@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>jQuery</title>
+    <h1>Purpose: To show some basic jQuery experiments: </h1>
+    
+   <link rel="stylesheet" href="../css/CSS.css" />
+   
+    
+</head>
+<body>
+    
+    <center>
+    <div class="maindiv">
+    
+    <br />
+    <br />
+    
+    <h2>Hey this is a header.</h2>
+
+    <br />
+    <br />
+
+
+    <button id="button1">Hide Header!</button>
+    <br />
+    <br />
+
+    <p>
+        This text is in a paragraph tag.
+
+    </p>
+
+    <button id="button2">Change Color and Text!</button>
+
+        </div>
+        </center>
+
+
+            
+ 
+
+    <br />
+    <br />
+
+     <hr />
+    <b>Sources:</b>
+    <a href="http://net4.ccs.neu.edu/home/sahibj/fileview/Default.aspx?~/experiments/jQuery experiments/jquery001.html">HTML Source</a>
+  
+
+</body>
+</html>
+ <script src="../../javascript/jquery-2.1.0.min.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            alert("Hello World from jQuery!");
+
+        })
+
+
+        var header2 = jQuery("h2");
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                header2.hide();
+            })
+        })
+
+        var para1 = jQuery("p");
+        $(document).ready(function () {
+            $("#button2").click(function () {
+                para1.css("color", "red");
+                para1.css("font-size", "50px").html("Goodbye");
+            })
+        })
+
+           </script>

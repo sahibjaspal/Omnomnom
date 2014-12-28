@@ -1,0 +1,153 @@
+﻿
+        
+
+        .logo {
+        float:left;
+            width:auto;
+            margin-left:10%;
+
+
+        }
+
+        .navigationheader {
+            padding:10px 10px;
+            height:11%;
+           
+        }
+
+
+#lblLoginMsg {
+    margin-left:14%;
+color:red;
+}
+
+        a{
+        
+           
+            
+            color:white;
+            
+            
+        }
+        
+
+        body {
+        
+        background-color:#F5F6F1;
+        }
+
+        .outermost {
+        
+            width:100%;
+        }
+
+        .loginform {
+        
+            background-color:#FFFFFF;
+            height:300px;
+            
+        }
+
+        .verticalbar {
+        border-left:2px solid #b61111;
+            height:280px;
+            float:left;
+            margin-top:10px;
+            margin-bottom:10px;
+            margin-right:50px;
+            margin-left:75px;
+        }
+
+        
+        .connectwithus {
+        
+            margin-top:5px; 
+            background-color:black;
+            height:350px;
+            margin-bottom:-20px;
+            color:white;
+
+           }
+
+       
+
+
+
+        .auto-style1 {
+            width: 144px;
+            text-align: right;
+           
+        }
+        .auto-style2 {
+            width: 182px;
+        }
+
+        .lbllogin {
+            color:#b61111;
+            margin-left:14%;
+            font-weight:bold;
+            font-family:'Comic Sans MS';
+            font-size:large;
+        }
+
+        .lblUserName {
+        color:#b61111;
+        font-weight:bold;
+            font-family:'Comic Sans MS';
+        }
+
+         .lblPassword {
+        color:#b61111;
+        font-weight:bold;
+            font-family:'Comic Sans MS';
+        }
+
+
+        #btnLogin {
+            background-color:#b61111;
+            color:white;
+        font-family:'Comic Sans MS'
+        }
+
+        #linkSignUp {
+            font-weight:bold;
+            color:#b61111;
+            
+        }
+
+        .logintable {
+        float:left;
+            margin-top:50px;
+        }
+
+        .signuplink {
+        font-family:'Comic Sans MS';
+            margin-top:50px;
+            text-align:center;
+        }
+
+        .loginpanel {
+        
+            margin-top:100px;
+            margin-bottom:100px;
+        }
+
+                .navbar-inverse .navbar-nav > li > a {
+color: white;
+}
+
+#welcomered {
+    color:#b61111;
+    font-weight:bold;
+}
+
+#footerimage {
+margin-top:200px;color:black;
+
+}
+
+        .cartoonimage {
+        
+            height:150px;
+            width:150px;
+        }

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <h2>Purpose: To show animations using jQueryUI: </h2>
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui-1.10.4.custom.min.css" />
+   <link rel="stylesheet" href="css/UIanimationCSS.css" />
+    <script type="text/javascript" src="../../javascript/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../javascript/jquery-ui-1.10.4.custom.min.js"></script>
+</head>
+<body>
+   
+   
+
+    <div id="blackdiv" class="black">
+
+
+    </div>
+    <script>
+
+        $(init);
+
+        var i = 0;
+        function init() {
+            tick();
+        }
+
+        var animations = [
+            {"object":".black", "properties":{"left":50,"top":50,"width":100},"duration":0},
+            {"object":".black", "properties":{"left": 50,"top": 50,"width": 200,"background-color": "white" },"duration" : 1000},
+            {"object":".black", "properties":{"left":200,"top":100,"width":100,"background-color":"green"},"duration" : 1000},
+            {"object":".black", "properties":{"left":300,"top":150,"width":200,"background-color":"yellow"},"duration" : 1000},
+            {"object":".black", "properties":{"left":300,"top":200,"width":100,"background-color":"orange"},"duration" : 1000},
+            {"object":".black", "properties":{"left":350,"top":250,"width":200,"background-color":"blue"},"duration" : 1000}
+        ];
+
+        function tick() {
+            if (i >= animations.length) 
+                return;
+                var object = $(animations[i].object);
+                var properties = animations[i].properties;
+                var duration = animations[i].duration;
+
+                i++;
+                object.animate(
+                    properties,
+                    duration,
+                    tick);
+            }
+        
+
+    </script>
+
+    
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+
+     <hr />
+    <b>Sources:</b>
+    <a href="http://net4.ccs.neu.edu/home/sahibj/fileview/Default.aspx?~/experiments/jQuery UI experiments/jQueryUIanimation.html">HTML Source</a>
+  
+</body>
+</html>

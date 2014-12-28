@@ -1,0 +1,44 @@
+﻿ .button
+        {
+            border-radius: 4px 4px 4px 4px;
+            height: 30px;
+            padding: 5px;
+            font-size: 14px;
+            background-color: #6ca21e;
+            color: #FFFFFF;
+        }
+        #divServerTime
+        {
+            width: 100px;
+            height: 30px;
+            font-weight: bold;
+            float: left;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        body
+        {
+            background-color: #32373a;
+            color: #FFFFFF;
+        }
+        #mainBody
+        {
+            background-color: #FFFFFF;
+            height: 100%;
+            color: #32373a;
+        }
+        .divMainTime
+        {
+            width: 450px;
+            height: 30px;
+            background-color: #fdd136;
+            font-size: 14px;
+        }
+        span
+        {
+            color:Black;
+        }
+        a
+        {
+            color:#6ca21e !important;
+        }

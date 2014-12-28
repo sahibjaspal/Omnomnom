@@ -1,0 +1,120 @@
+﻿  .previouscomments {
+        margin-top:20%;
+            height:300px;
+            width:100%;
+            overflow-y:scroll;
+        
+        }
+
+         #btnLike {
+          
+            width:100px;
+            margin-left:3px;
+            
+            
+        }
+
+        .btnLikeWrapper {
+            
+            margin-top:8%;
+        }
+
+        .tablearea {
+        margin-top:70px;
+        float:left;
+        width:85%;
+       transition: width 2s;
+        }
+
+.newtablearea {
+
+margin-top:70px;
+float:left;
+width:42%;
+
+}
+
+        .reviewlist {
+            margin:10px;
+            color:black;
+        
+        }
+
+        .restaurantnamewrapper {
+            float:left;
+        }
+
+        .connectwithus {
+        
+            margin-top:230px; 
+            background-color:black;
+            height:350px;
+            margin-bottom:-20px;
+            color:white;
+
+           }
+
+       
+        .selecteddetails {
+        margin-top:70px;
+            float:left;
+           width:55%;
+           margin-left:2%;
+          
+           color:black;
+        }
+
+        body {
+        
+        background-color:#b61111;
+        }
+
+        .outermost {
+        margin-top:5%;
+            width:100%;
+        }
+
+        .navbar-default {
+            background-color: #1a1818;
+            border-color: #e7e7e7;
+        }           
+         #lblWelcome {
+            color:#b61111;
+         }
+
+         .txtwelcome {
+         
+            color:#b61111;
+         }
+
+         #txtComment {
+         
+            height:110px;
+
+            width:200px;
+         }
+
+
+         @media (max-width:1202px) {
+
+             .tablearea {
+             
+             width:100%
+             }
+
+             .selecteddetails {
+             
+                width:100%;
+               
+             }
+         
+         
+         }
+         .navbar-default .navbar-nav > li > a {
+             color:white;
+         }
+
+         .footerimage {
+         margin-top:200px;color:black;
+         
+         }

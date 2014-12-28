@@ -1,0 +1,25 @@
+﻿@media (min-width : 50px) and (max-width : 500px) {
+    .outerwrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width : 501px) {
+
+    .outerwrapper {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .leftext {
+        float: left;
+        width: 300px;
+        
+    }
+
+    .sidebar {
+        float: left;
+        width: 200px;
+    }
+}
